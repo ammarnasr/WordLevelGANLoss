@@ -405,25 +405,25 @@ class condGANTrainer(object):
 
 
 
-                with open('/content/drive/My Drive/slgl/serrD0.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrD0.pkl', 'wb') as f:
                     pickle.dump(serrD0, f)
                 
-                with open('/content/drive/My Drive/slgl/serrD1.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrD1.pkl', 'wb') as f:
                     pickle.dump(serrD1, f)
                 
-                with open('/content/drive/My Drive/slgl/serrD2.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrD2.pkl', 'wb') as f:
                     pickle.dump(serrD2, f)
 
-                with open('/content/drive/My Drive/slgl/serrD_total.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrD_total.pkl', 'wb') as f:
                     pickle.dump(serrD_total, f)
 
-                with open('/content/drive/My Drive/slgl/skl_loss.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/skl_loss.pkl', 'wb') as f:
                     pickle.dump(skl_loss, f)
                 
-                with open('/content/drive/My Drive/slgl/serrG.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrG.pkl', 'wb') as f:
                     pickle.dump(serrG, f)
                 
-                with open('/content/drive/My Drive/slgl/serrG_total.pkl', 'wb') as f:
+                with open('/content/drive/My Drive/wlgl/serrG_total.pkl', 'wb') as f:
                     pickle.dump(serrG_total, f)
                 
                 
