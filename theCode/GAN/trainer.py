@@ -246,7 +246,7 @@ class condGANTrainer(object):
         # gen_iterations = start_epoch * self.num_batches
 
 
-
+        print ("START EPOCH IS", start_epoch)
         if start_epoch == 0 :
             serrD0 = []
             serrD1 = []
